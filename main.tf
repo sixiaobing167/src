@@ -113,7 +113,7 @@ resource "aws_instance" "amazon_linux_2" {
   iam_instance_profile = "WebService"
   security_groups = [aws_security_group.qyt_aws_allow_ssh_web.id]
   tags = {
-    Name = "qytang ec2"
+    Name = "sixb ec2"
   }
   user_data = file("user_data.sh")
 }
