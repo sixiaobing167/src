@@ -107,7 +107,7 @@ resource "aws_security_group" "qyt_aws_allow_ssh_web" {
 
 resource "aws_instance" "amazon_linux_2" {
   key_name      = "new-aws"
-  ami           = "ami-01af223aa7f274198"
+  ami           = "67056809210"
   instance_type = "t2.micro"
   subnet_id = aws_subnet.qyt_outside_subnet.id
   iam_instance_profile = "WebService"
