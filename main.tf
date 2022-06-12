@@ -105,7 +105,7 @@ resource "aws_security_group" "qyt_aws_allow_ssh_web" {
   }
 }
 
-resource "aws_instance" "amazon_linux_2" {
+resource "aws_instance" "amazon_linux_2999" {
   key_name      = "new-aws"
   ami           = "ami-0cbec04a61be382d9"
   instance_type = "t2.micro"
